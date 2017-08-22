@@ -1,0 +1,71 @@
+/* TODO 公共css*/
+
+/* notes css */
+.notes-list {
+    width: 100%;
+    background-color: #f5e5c7;
+    margin-bottom: 1.4rem;
+}
+
+.notes-list .notes-shadow {
+    box-shadow: 0px 5px 5px 3px #ddd;
+}
+
+.notes-list .notes-shadow .notes-content {
+    padding: 1.4rem 1.4rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.notes-list .notes-shadow .notes-content a {
+    font-size: 1.7rem;
+    color: #1f1e1e;
+    font-weight: 100;
+}
+
+.notes-list .notes-shadow .notes-content a:hover {
+    color: #b260ce;
+    text-decoration: none;
+}
+
+.notes-list .notes-shadow .notes-footer {
+    padding: 1.4rem 1.4rem;
+}
+
+.notes-list .notes-shadow .notes-footer span {
+    color: #847575;
+}
+
+.notes-list .notes-shadow .notes-footer span a {
+    text-decoration: none;
+    color: #00bcd4;
+}
+
+/*热门文章*/
+.hot-essays {
+    width: 100%;
+    height: 21rem;
+    background-color: #ceffee;
+    margin-bottom: 1.4rem;
+    box-shadow: 0 2px 5px 3px #ddd;
+}
+
+.hot-essays .hot-essays-title {
+    padding: 1.4rem 1.4rem;
+    border-bottom: 1px solid #ddd;
+}
+
+.hot-essays .hot-essays-title .title {
+    margin: 0!important;
+    font-size: 1rem;
+    font-weight: bold;
+    color: #5a5050;
+}
+
+.hot-essays .hot-essays-content {
+    padding: 1.4rem 1.4rem;
+}
+
+.hot-essays .hot-essays-content ul {
+    padding: 0;
+    list-style: none;
+}
