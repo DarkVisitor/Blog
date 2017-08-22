@@ -87,11 +87,33 @@ a:hover {
 
 /* 网站底部 */
 .footer {
-
+    background-color: #333;
+    padding: 1.5rem;
 }
 
 .footer .copyright {
     font-size: 14px;
     text-align: center;
     margin-bottom: 0;
+}
+
+
+/*回到顶部*/
+.back-to-top {
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 2.2rem;
+    height: 2.2rem;
+    padding: 0.7rem;
+    background-color: #68c3ec;
+    font-size: 22px;
+    line-height: .5;
+    border-radius: 3px;
+}
+.back-to-top:after {
+    font-family: FontAwesome;
+    color: #fff;
+    text-align: center;
+    content: "\f106"
 }
