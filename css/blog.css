@@ -9,6 +9,37 @@ a:hover {
     text-decoration: none;
 }
 
+
+.main-container {
+    background: #f7f8fa!important;
+}
+
+/*顶部导航*/
+.navbar {
+    padding: 0 1rem;
+}
+
+.navbar .navbar-nav .nav-item .nav-link {
+    margin: 1rem;
+}
+
+.navbar .navbar-nav .nav-item a:hover {
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+.navbar .navbar-nav .nav-item .dropdown-menu {
+    margin: 0;
+}
+
+.navbar .navbar-nav .active > a {
+    color: #b260ce!important;
+    text-decoration: none;
+    background-color: #fff;
+    border-radius: .3rem;
+}
+
+
 /* notes css */
 .notes-list {
     width: 100%;
@@ -110,6 +141,7 @@ a:hover {
     font-size: 22px;
     line-height: .5;
     border-radius: 3px;
+    display: none;
 }
 .back-to-top:after {
     font-family: FontAwesome;
